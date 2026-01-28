@@ -1,0 +1,257 @@
+:root {
+  --bg-main: #fcfcfc;
+  --primary: #c0392b;
+  --text-dark: #2d3436;
+  --text-light: #636e72;
+  --line-color: #eee;
+}
+
+body { margin: 0; padding: 0; overflow-x: hidden; background-color: var(--bg-main); font-family: 'Be+Vietnam+Pro', sans-serif; color: var(--text-dark); }
+
+/* Khối màu nền ảo diệu */
+.bg-glow {
+  position: fixed;
+  top: 50%; left: 50%;
+  width: 80vw; height: 80vh;
+  transform: translate(-50%, -50%);
+  filter: blur(120px);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.4;
+  transition: background-color 1.2s ease;
+}
+
+.app-wrapper { width: 100%; position: relative; }
+
+/* Hero */
+.hero {position: relative;  height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.hero h1 { font-family: 'Playfair Display'; font-size: clamp(3.5rem, 10vw, 7rem); color: var(--text-dark); line-height: 1; margin: 15px 0; font-weight: 900; }
+.hero-tag { letter-spacing: 5px; font-weight: 700; color: var(--primary); font-size: 0.85rem; }
+.hero-desc { font-size: 1.3rem; color: var(--text-light); max-width: 600px; }
+
+/* Timeline */
+.container { position: relative; max-width: 1200px; margin: 0 auto; padding: 100px 0; }
+.timeline-path, .timeline-fill { position: absolute; left: 190px; width: 2px; height: 100%; }
+.timeline-path { background: var(--line-color); z-index: 1; }
+.timeline-fill { background: var(--primary); z-index: 2; height: 0; }
+
+/* Milestones */
+.milestone { position: relative; padding-left: 280px; margin-bottom: 450px; cursor: pointer; transition: 0.5s; }
+
+/* Số năm/Tên mốc bên trái - CHỈNH LẠI ĐỘ ĐẬM */
+.year-container {
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  text-align: right;
+  top: 40px;
+}
+.year {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #bbb; /* Đậm hơn màu cũ (#ddd) một chút để dễ nhìn */
+  line-height: 1;
+  transition: all 0.4s ease; /* Chạy nhanh hơn để cảm giác nhạy */
+  display: block;
+}
+
+/* KHI ACTIVE: Số năm sáng đỏ rực và nhích nhẹ */
+.milestone.active .year {
+  color: var(--primary);
+  transform: translateX(-10px) scale(1.05);
+}
+
+/* Card nội dung */
+.content {
+  background: white;
+  padding: 50px;
+  border-radius: 40px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 900px;
+  box-shadow: 0 15px 45px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: all 0.5s ease;
+}
+
+.milestone.active .content {
+  box-shadow: 0 30px 80px rgba(192, 57, 43, 0.1); /* Đổ bóng đỏ nhẹ khi active */
+  transform: translateY(-5px);
+}
+
+.tag { color: var(--primary); font-weight: 800; font-size: 0.8rem; margin-bottom: 10px; display: block; }
+h2 { font-family: 'Playfair Display'; font-size: 2.3rem; margin-bottom: 20px; color: var(--text-dark); }
+p { line-height: 1.8; color: var(--text-light); font-size: 1.15rem; text-align: justify; }
+
+.image-wrapper { width: 320px; height: 220px; border-radius: 20px; overflow: hidden; background: #eee; }
+.image-wrapper img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: 1s; }
+.milestone.active img { filter: grayscale(0%); }
+
+/* Modal */
+.detail-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(10px); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.modal-body { background: white; max-width: 1000px; width: 100%; border-radius: 40px; padding: 60px; position: relative; }
+.modal-grid { display: grid; grid-template-columns: 350px 1fr; gap: 40px; margin-top: 30px; }
+.modal-img { width: 100%; border-radius: 20px; }
+.modal-text p { font-size: 1.25rem; line-height: 2; color: #444; }
+.close-btn { position: absolute; top: 30px; right: 40px; font-size: 3rem; border: none; background: none; cursor: pointer; color: #ccc; }
+
+.footer {
+  /* Không dùng màu nền tối, để nền trong suốt hoặc trắng */
+  background-color: transparent; 
+  padding: 80px 20px 40px; /* Khoảng cách trên dưới */
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Đường gạch đỏ nhỏ trang trí phía trên */
+.footer-line {
+  width: 50px;
+  height: 4px;
+  background-color: #c0392b; /* Màu đỏ chủ đạo */
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+/* Slogan chính */
+.footer h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #2d3436; /* Màu chữ đậm */
+  margin: 0 0 15px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Thông tin nhóm */
+.footer-sub {
+  font-size: 1rem;
+  color: #636e72; /* Màu xám nhẹ */
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+/* Bản quyền nhỏ xíu dưới cùng */
+.copyright {
+  font-size: 0.8rem;
+  color: #b2bec3; /* Màu xám rất nhạt */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+/* Hiệu ứng khi di chuột vào footer */
+.footer:hover .footer-line {
+  width: 100px; /* Đường gạch dài ra khi hover */
+  transition: width 0.5s ease;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 900px) {
+  .footer-section.brand .divider,
+  .footer-section h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .timeline-path, .timeline-fill { left: 40px; }
+  .milestone { padding-left: 70px; margin-bottom: 300px; }
+  .year-container { left: 0; width: auto; text-align: left; top: -50px; }
+  .year { font-size: 1.8rem; }
+  .content { flex-direction: column; padding: 30px; }
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 40px; /* Nâng lên cao một chút */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Khoảng cách giữa chuột và chữ */
+  z-index: 10;
+  cursor: pointer;
+}
+
+.scroll-hint p {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #c0392b; /* Đổi thành màu đỏ chủ đạo cho nổi */
+  margin: 0;
+  text-transform: uppercase;
+  animation: fadeText 2s infinite;
+}
+
+/* Vẽ khung con chuột */
+.mouse {
+  width: 30px; /* To hơn một chút */
+  height: 50px;
+  border: 2px solid #2d3436; /* Màu viền đậm hơn */
+  border-radius: 25px;
+  position: relative;
+}
+
+/* Vẽ con lăn bên trong */
+.mouse::before {
+  content: '';
+  width: 6px;
+  height: 10px;
+  background: #c0392b; /* Con lăn màu đỏ */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  border-radius: 3px;
+  animation: mouseScroll 1.5s infinite cubic-bezier(0.15, 0.41, 0.69, 0.94);
+}
+
+@keyframes mouseScroll {
+  0% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 30px; /* Chạy xuống sâu hơn */
+    opacity: 0;
+  }
+}
+
+@keyframes fadeText {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.milestone:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* (Tuỳ chọn) Nếu vẫn còn dư một chút, bạn chỉnh lại chiều cao của đường kẻ */
+.timeline-path, .timeline-fill {
+  /* Dừng đường kẻ sớm hơn một chút so với đáy container */
+  bottom: 50px; 
+  height: auto; /* Để nó tự tính toán theo top và bottom */
+}
