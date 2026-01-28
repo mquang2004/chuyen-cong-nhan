@@ -18,7 +18,7 @@ const milestones = [
       "Người nông dân mất đất, mất nhà, lâm vào cảnh 'thất cơ lỡ vận'. Họ lang thang khắp các nẻo đường, trở thành những người vô gia cư. Tàn khốc hơn, Nhà nước phong kiến Anh thời đó đã ban hành những đạo luật đẫm máu trừng phạt người lang thang: đánh roi, xẻo tai, thậm chí tử hình nếu tái phạm.",
       "Không còn con đường nào khác, họ buộc phải quay trở lại các công xưởng, bán sức lao động rẻ mạt để đổi lấy miếng ăn qua ngày. Chính trong hoàn cảnh bi thương đó, những người vô sản đầu tiên của lịch sử nhân loại đã được hình thành: Tự do về thân thể, nhưng trần trụi về tài sản."
     ],
-    img: "https://images.unsplash.com/photo-1464039397811-476f652a343b?w=800",
+    img: "https://images.tuyensinh247.com/picture/2019/0820/6.PNG",
     videoId: "zhL5DCizj5c", 
     color: "#f1f5f9"
   },
@@ -60,7 +60,7 @@ const milestones = [
       "Mặc dù các kiến nghị thư liên tục bị bác bỏ, nhưng phong trào đã giáo dục ý thức chính trị cho hàng triệu thợ mỏ, thợ dệt. Họ nhận ra rằng: Muốn thay đổi số phận kinh tế (bánh mì), trước hết phải nắm lấy quyền lực chính trị (lá phiếu).",
       "Sự kiện này đánh dấu sự tách rời của giai cấp công nhân khỏi sự ảnh hưởng của giai cấp tư sản, trở thành một lực lượng chính trị độc lập, sẵn sàng cho sự tiếp nhận một lý luận khoa học dẫn đường."
     ],
-    img: "https://images.unsplash.com/photo-1577985695029-9dc490a233b2?w=800",
+    img: "https://static.hieuluat.vn/uploaded/Images/Original/2023/04/04/cong-dan-Anh-dua-hien-chuong-den-quoc-hoi_0404144107.jpg",
     videoId: "fHFJMG_SHNA",
     color: "#94a3b8"
   },
@@ -76,7 +76,7 @@ const milestones = [
       "Văn kiện khẳng định sứ mệnh của công nhân không chỉ là tự giải phóng mình, mà là giải phóng toàn nhân loại khỏi mọi áp bức, bóc lột. Để làm được điều đó, họ phải đập tan bộ máy nhà nước tư sản và thiết lập nền chuyên chính vô sản.",
       "Câu kết của Tuyên ngôn: 'Vô sản toàn thế giới, đoàn kết lại!' đã trở thành lời hịch thiêng liêng, kết nối hàng triệu trái tim cần lao trên khắp năm châu, chuyển phong trào công nhân từ 'tự phát' sang 'tự giác' hoàn toàn."
     ],
-    img: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800",
+    img: "https://file3.qdnd.vn/data/images/0/2023/02/24/thuthuytv/ec27f868-bac4-4b28-870d-f5c576fb0c8e.jpeg?dpi=150&quality=100&w=870",
     videoId: "Iqvx2Jv4zjI",
     color: "#fecaca"
   },
@@ -104,7 +104,7 @@ const milestones = [
       "Tuy nhiên, do thiếu một đảng tiên phong lãnh đạo và chưa thực hiện liên minh công - nông, Công xã đã bị giai cấp tư sản phản kích tàn bạo. Tuần lễ đẫm máu tháng 5 đã dìm Paris trong biển lửa và xác người.",
       "Dù thất bại, Công xã Paris mãi mãi là 'người đi tiên phong vĩ đại'. Sự hy sinh của các chiến sĩ Công xã đã để lại bài học xương máu vô giá: Giai cấp công nhân muốn thắng lợi phải đập tan bộ máy nhà nước cũ và thiết lập quyền lực thực sự của mình."
     ],
-    img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    img: "https://i.pinimg.com/1200x/22/07/57/2207574db899d8d2420215d52d8e8bdf.jpg",
     videoId: "nUZmlwPZoOQ",
     color: "#f87171"
   },
@@ -120,7 +120,7 @@ const milestones = [
       "Tại quảng trường Haymarket, cảnh sát đã nổ súng vào đoàn người biểu tình ôn hòa. Máu nhuộm đỏ đường phố, các thủ lĩnh công đoàn bị bắt và treo cổ. Nhưng sự đàn áp tàn bạo không thể dập tắt ngọn lửa đấu tranh.",
       "Từ sự kiện bi tráng này, ngày 1/5 đã trở thành ngày hội biểu dương lực lượng của giai cấp công nhân toàn thế giới. Nó nhắc nhở chúng ta rằng: Mọi quyền lợi của người lao động hôm nay đều được đánh đổi bằng sự hy sinh của các thế hệ đi trước."
     ],
-    img: "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800",
+    img: "https://nghiencuuquocte.org/wp-content/uploads/2019/05/04.jpg",
     videoId: "1pwEKwmObnI",
     color: "#ef4444"
   },
@@ -134,7 +134,7 @@ const milestones = [
       "Thắng lợi này đã đập tan mắt xích yếu nhất của chủ nghĩa đế quốc, chia thế giới thành hai hệ thống đối lập. Nó chứng minh rằng: Giai cấp công nhân hoàn toàn đủ năng lực lãnh đạo xã hội, quản lý kinh tế và xây dựng một chế độ xã hội công bằng, không còn người bóc lột người.",
       "Đối với các dân tộc thuộc địa (như Việt Nam), Cách mạng Tháng Mười như một ánh mặt trời chói lọi, chỉ ra con đường giải phóng duy nhất: Con đường cách mạng vô sản. Nguyễn Ái Quốc đã khẳng định: 'Muốn cứu nước và giải phóng dân tộc, không có con đường nào khác con đường cách mạng vô sản'."
     ],
-    img: "https://images.unsplash.com/photo-1580130601254-05fa235e1e54?w=800",
+    img: "https://quocphongthudo.vn/upload/2001606/20231109/cm-thang-10_03989.jpg",
     videoId: "nkdukjVLef8",
     color: "#dc2626"
   },
@@ -150,7 +150,7 @@ const milestones = [
       "Cuộc bãi công thắng lợi rực rỡ sau 8 ngày đêm kiên cường. Đây là mốc son chói lọi, đánh dấu lần đầu tiên công nhân Việt Nam đấu tranh không chỉ vì mục đích kinh tế (tăng lương, giảm giờ làm) mà vì mục đích chính trị quốc tế, thể hiện tình đoàn kết giai cấp vô sản xuyên biên giới.",
       "Sự kiện này chứng tỏ giai cấp công nhân Việt Nam, dù số lượng còn ít (khoảng 22 vạn người, chiếm 1-2% dân số), nhưng đã sớm tiếp thu tư tưởng cách mạng và sẵn sàng gánh vác sứ mệnh lịch sử của dân tộc."
     ],
-    img: "https://images.unsplash.com/photo-1565538902598-e737bd329c01?w=800",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGPwkXY4lK3I5oBNmgwlKUzh3gNY2oUjnaTA&s",
     videoId: "oX5keiybfyg",
     color: "#fdba74"
   },
@@ -160,11 +160,11 @@ const milestones = [
     title: "Ngọn Cờ Tiên Phong",
     desc: "Mùa xuân năm 1930, Đảng Cộng sản Việt Nam ra đời. Đây là bước ngoặt vĩ đại, chấm dứt thời kỳ khủng hoảng về đường lối cứu nước kéo dài hàng thập kỷ, đưa giai cấp công nhân lên vị trí lãnh đạo duy nhất.",
     details: [
-      "Khác với quy luật chung của thế giới, giai cấp công nhân Việt Nam ra đời *trước* cả giai cấp tư sản dân tộc. Họ sinh ra trong nỗi nhục mất nước, chịu ba tầng áp bức (đế quốc, phong kiến, tư sản bản xứ), nên có tinh thần cách mạng triệt để nhất.",
+      "Khác với quy luật chung của thế giới, giai cấp công nhân Việt Nam ra đời trước cả giai cấp tư sản dân tộc. Họ sinh ra trong nỗi nhục mất nước, chịu ba tầng áp bức (đế quốc, phong kiến, tư sản bản xứ), nên có tinh thần cách mạng triệt để nhất.",
       "Sự ra đời của Đảng là sự kết hợp nhuần nhuyễn giữa chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước Việt Nam. Ngay từ khi ra đời, Đảng đã khẳng định sứ mệnh lãnh đạo cách mạng thuộc về giai cấp công nhân thông qua đội tiền phong của mình.",
       "Cương lĩnh chính trị đầu tiên của Đảng đã vạch ra con đường đúng đắn: Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản. Từ đây, con thuyền cách mạng Việt Nam đã có người cầm lái vững vàng vượt qua mọi sóng gió."
     ],
-    img: "https://images.unsplash.com/photo-1560251180-1a0b93970dc5?w=800",
+    img: "https://cdn-images.vtv.vn/zoom/700_438/2020/6/8/photo-1-15916299088202067720891.jpg",
     videoId: "7FtGvLISpIk",
     color: "#fbbf24"
   },
@@ -178,7 +178,7 @@ const milestones = [
       "Hàng vạn công nhân ưu tú đã gia nhập quân đội, trở thành những chiến sĩ lái xe Trường Sơn, thợ kỹ thuật quân sự, trực tiếp cầm súng đối mặt với kẻ thù. Hình ảnh 'tay búa tay súng' trở thành biểu tượng kiêu hãnh của giai cấp công nhân thời đại Hồ Chí Minh.",
       "Thắng lợi năm 1975 là minh chứng hùng hồn cho sức mạnh của khối liên minh công - nông - trí thức dưới sự lãnh đạo của Đảng, hoàn thành xuất sắc sứ mệnh giải phóng dân tộc, mở ra kỷ nguyên độc lập, thống nhất và đi lên CNXH."
     ],
-    img: "https://images.unsplash.com/photo-1518659556730-67c945407775?w=800",
+    img: "https://hnm.1cdn.vn/2025/04/04/xe-tang.jpg",
     videoId: "bp7JBr8D_q4",
     color: "#f59e0b"
   },
@@ -194,7 +194,7 @@ const milestones = [
       "Giai cấp công nhân có sự biến đổi sâu sắc về cơ cấu. Bên cạnh bộ phận công nhân nhà nước truyền thống, đã xuất hiện đông đảo đội ngũ công nhân trong khu vực tư nhân và khu vực có vốn đầu tư nước ngoài (FDI).",
       "Sự thay đổi này mang lại cơ hội việc làm và thu nhập, nhưng cũng đặt công nhân trước những thách thức gay gắt: Cạnh tranh việc làm, yêu cầu nâng cao tay nghề, tác phong công nghiệp và sự phân tầng xã hội, phân hóa giàu nghèo ngày càng rõ rệt."
     ],
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+    img: "https://vnanet.vn/Data/Articles/2021/01/19/5242182/vna_potal_dai_hoi_lan_thu_vi_cua_dang_khoi_xuong_va_lanh_dao_su_nghiep_doi_moi_dat_nuoc_140925973_stand.jpeg",
     videoId: "xFHawdU99KQ",
     color: "#bef264"
   },
@@ -208,7 +208,7 @@ const milestones = [
       "Bằng cách kiên trì chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh, vận dụng sáng tạo vào thực tiễn Việt Nam, công cuộc Đổi Mới đã gặt hái những thành tựu to lớn. Đất nước ra khỏi khủng hoảng, kinh tế tăng trưởng cao, đời sống nhân dân được cải thiện.",
       "Thực tiễn này đã chứng minh sức sống mãnh liệt của lý tưởng xã hội chủ nghĩa. Giai cấp công nhân Việt Nam không chỉ giữ vững ngọn cờ tư tưởng mà còn đóng vai trò nòng cốt trong việc ổn định chính trị và phát triển đất nước."
     ],
-    img: "https://images.unsplash.com/photo-1626262796120-79f90647ee48?w=800",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI7Co1PRZ3NwWNLG-wMQLZ1E2BRZvTpIaXww&s",
     videoId: "_Tm0C3Av8hM",
     color: "#84cc16"
   },
@@ -252,7 +252,7 @@ const milestones = [
       "Chiến lược phát triển tập trung vào việc xây dựng đội ngũ công nhân lớn mạnh về số lượng, đa dạng về cơ cấu, và đặc biệt là nâng cao chất lượng. Phải hình thành được tầng lớp công nhân tinh hoa, những 'nghệ nhân' trong thời đại số.",
       "Đồng thời, Nhà nước cam kết cải thiện mạnh mẽ đời sống vật chất và tinh thần cho công nhân: giải quyết vấn đề nhà ở xã hội, tiền lương, bảo hiểm và phúc lợi, để người công nhân yên tâm cống hiến và sáng tạo."
     ],
-    img: "https://images.unsplash.com/photo-1496247749665-49cf5bf87569?w=800",
+    img: "https://hoc24.vn/source/%C4%90%E1%BB%8BaTHCS/%40%40/hinh-anh-cong-nghiep-hoa-hien-dai-hoa-la-gi-3.jpg",
     videoId: "7zwMRVvfEHw",
     color: "#2dd4bf"
   },
@@ -266,7 +266,7 @@ const milestones = [
       "Công nhân lúc này sẽ là những người làm chủ thực sự của nền kinh tế tri thức, xã hội số và chính phủ số. Khoảng cách giữa lao động trí óc và lao động chân tay sẽ dần bị xóa nhòa.",
       "Khát vọng 2045 không chỉ là giấc mơ về sự giàu có, mà là sự khẳng định vị thế của Việt Nam trên trường quốc tế, sánh vai với các cường quốc năm châu như mong ước của Bác Hồ. Và giai cấp công nhân chính là người cầm lá cờ đầu trong hành trình vĩ đại đó."
     ],
-    img: "https://images.unsplash.com/photo-1559592413-7cec4d0ea49b?w=800",
+    img: "https://premedia.vneconomy.vn/files/uploads/2026/01/06/cbebebb017dd4dea94abcc7f554d7078-61783.jpg?w=501&h=300&mode=crop",
     videoId: "WCgMg0bTIKI",
     color: "#06b6d4"
   }
@@ -316,7 +316,7 @@ function App() {
       <header className="hero">
         <p className="hero-tag">CHỦ NGHĨA XÃ HỘI KHOA HỌC</p>
         <h1>GIAI CẤP <br></br> CÔNG NHÂN</h1>
-        <p className="hero-desc">SỰ PHÁT TRIỂN CỦA GIAI CẤP CÔNG NHÂN</p>
+        <p className="hero-desc">SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN</p>
         <div className="scroll-hint">
           <div className="mouse"></div>
           <p>CUỘN ĐỂ KHÁM PHÁ</p>
@@ -375,7 +375,7 @@ function App() {
                         <p key={idx} style={{marginBottom: '15px'}}>{paragraph}</p>
                      ))}
                      <div className="source-ref">
-                        Nguồn: Giáo trình CNXHKH, Tư liệu VTV & History Channel
+                        Nguồn: Youtube
                      </div>
                   </div>
                </div>
@@ -390,7 +390,10 @@ function App() {
           <div className="footer-line"></div>
           <h2>TIÊN PHONG - SÁNG TẠO - CỐNG HIẾN</h2>
           <p className="footer-sub">
-            Nhóm [Tên Nhóm] &bull; Chủ đề 1: Sứ mệnh lịch sử Giai cấp công nhân
+            Nội dung được tổng hợp từ giáo trình "Chủ nghĩa xã hội khoa học" của NXB Chính trị Quốc gia Sự thật.
+          </p>
+          <p className="footer-sub">
+            Sản phẩm không mang mục đich thương mại.
           </p>
           <p className="copyright">© 2026 CNXHKH Project</p>
         </div>

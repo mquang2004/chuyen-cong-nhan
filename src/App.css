@@ -30,10 +30,34 @@ body { margin: 0; padding: 0; overflow-x: hidden; background-color: var(--bg-mai
 .hero-desc { font-size: 1.3rem; color: var(--text-light); max-width: 600px; }
 
 /* Timeline */
-.container { position: relative; max-width: 1200px; margin: 0 auto; padding: 100px 0; }
-.timeline-path, .timeline-fill { position: absolute; left: 190px; width: 2px; height: 100%; }
-.timeline-path { background: var(--line-color); z-index: 1; }
-.timeline-fill { background: var(--primary); z-index: 2; height: 0; }
+.container { 
+  position: relative; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 100px 0; 
+}
+
+/* Cấu hình chung cho cả 2 dây */
+.timeline-path, .timeline-fill { 
+  position: absolute; 
+  left: 190px; 
+  width: 2px; 
+  top: 0; /* Quan trọng: Phải neo từ đỉnh */
+}
+
+/* Dây xám: Luôn hiện full chiều cao, nhưng chừa 1 chút ở đáy để ko đè footer */
+.timeline-path { 
+  background: var(--line-color); 
+  z-index: 1; 
+  height: calc(100% - 50px); /* Full chiều cao trừ đi 50px ở đáy */
+}
+
+/* Dây đỏ: Chiều cao do JS điều khiển (bắt đầu = 0) */
+.timeline-fill { 
+  background: var(--primary); 
+  z-index: 2; 
+  height: 0; 
+}
 
 /* Milestones */
 .milestone { position: relative; padding-left: 280px; margin-bottom: 450px; cursor: pointer; transition: 0.5s; }
@@ -85,9 +109,28 @@ body { margin: 0; padding: 0; overflow-x: hidden; background-color: var(--bg-mai
 h2 { font-family: 'Playfair Display'; font-size: 2.3rem; margin-bottom: 20px; color: var(--text-dark); }
 p { line-height: 1.8; color: var(--text-light); font-size: 1.15rem; text-align: justify; }
 
-.image-wrapper { width: 320px; height: 220px; border-radius: 20px; overflow: hidden; background: #eee; }
-.image-wrapper img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: 1s; }
-.milestone.active img { filter: grayscale(0%); }
+.image-wrapper {
+  width: 450px;       /* Tăng độ rộng lên (cũ là 320px) */
+  height: 300px;      /* Tăng chiều cao để ảnh thoáng hơn */
+  border-radius: 20px;
+  overflow: hidden;
+  background: #eee;
+  flex-shrink: 0;     /* QUAN TRỌNG: Cái này giúp ảnh "cứng", không bị phần chữ ép nhỏ lại */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Thêm bóng nhẹ cho ảnh nổi lên */
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Giữ chế độ này để ảnh lấp đầy khung đẹp nhất */
+  transition: transform 0.7s ease, filter 0.5s ease;
+}
+
+/* Hiệu ứng khi di chuột vào khung nội dung thì ảnh phóng to nhẹ */
+.milestone:hover .image-wrapper img {
+  transform: scale(1.05);
+}
 
 /* Modal */
 .detail-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(10px); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 20px; }
@@ -249,9 +292,3 @@ p { line-height: 1.8; color: var(--text-light); font-size: 1.15rem; text-align: 
   margin-bottom: 0 !important;
 }
 
-/* (Tuỳ chọn) Nếu vẫn còn dư một chút, bạn chỉnh lại chiều cao của đường kẻ */
-.timeline-path, .timeline-fill {
-  /* Dừng đường kẻ sớm hơn một chút so với đáy container */
-  bottom: 50px; 
-  height: auto; /* Để nó tự tính toán theo top và bottom */
-}
