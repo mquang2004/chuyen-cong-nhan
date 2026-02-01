@@ -5,9 +5,7 @@ import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// BỘ DỮ LIỆU SỬ THI: CHI TIẾT - HÀO HÙNG - CÓ CHIỀU SÂU
 const milestones = [
-  // --- CHƯƠNG 1: ĐÊM TRƯỜNG TRƯỚC BÌNH MINH ---
   {
     year: "Thế kỉ XV - XVII",
     tag: "TÍCH LUỸ NGUYÊN THUỶ",
@@ -277,6 +275,7 @@ function App() {
   const fillRef = useRef(null);
   const blobRef = useRef(null);
   const [selected, setSelected] = useState(null);
+  const [loadGame, setLoadGame] = useState(false); 
 
   useEffect(() => {
     const milestoneEls = document.querySelectorAll(".milestone");
@@ -392,11 +391,23 @@ function App() {
           </div>
 
           <div className="genially-wrapper">
-            <iframe 
-              title="Genially Interactive"
-              src="https://view.genially.com/69763237c9b4ee65baf0c679/interactive-content-desert-island" 
-              allowFullScreen
-            ></iframe>
+            {!loadGame ? (
+              // Màn hình chờ trước khi tải game
+              <div className="game-placeholder" onClick={() => setLoadGame(true)}>
+                <div className="placeholder-content">
+                  <h3>SẴN SÀNG CHƯA?</h3>
+                  <button className="play-btn">▶ BẤT ĐẦU TRẢI NGHIỆM</button>
+                  <p>Bấm vào để tải game (Giúp web tải nhanh hơn)</p>
+                </div>
+              </div>
+            ) : (
+              // Khung game thực sự (chỉ hiện ra khi loadGame = true)
+              <iframe 
+                title="Genially Interactive"
+                src="https://view.genially.com/69763237c9b4ee65baf0c679/interactive-content-desert-island" 
+                allowFullScreen
+              ></iframe>
+            )}
           </div>
         </div>
       </section>
