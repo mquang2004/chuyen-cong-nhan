@@ -417,7 +417,7 @@ function App() {
           <div className="footer-line"></div>
           <h2>TIÊN PHONG - SÁNG TẠO - CỐNG HIẾN</h2>
           <p className="footer-sub">
-            Nội dung được tổng hợp từ giáo trình "Chủ nghĩa xã hội khoa học" của NXB Chính trị Quốc gia Sự thật.
+            Nội dung được tổng hợp từ giáo trình "Chủ nghĩa xã hội khoa học" của NXB Chính trị Quốc gia Sự thật và các bài viết có liên quan.
           </p>
           <p className="footer-sub">
             Sản phẩm không mang mục đich thương mại.
