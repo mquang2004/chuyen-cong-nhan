@@ -397,7 +397,6 @@ function App() {
                 <div className="placeholder-content">
                   <h3>SẴN SÀNG CHƯA?</h3>
                   <button className="play-btn">▶ BẤT ĐẦU TRẢI NGHIỆM</button>
-                  <p>Bấm vào để tải game (Giúp web tải nhanh hơn)</p>
                 </div>
               </div>
             ) : (
