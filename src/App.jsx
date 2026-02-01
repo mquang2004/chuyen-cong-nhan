@@ -379,11 +379,27 @@ function App() {
                      </div>
                   </div>
                </div>
-
             </div>
           </div>
         </div>
       )}
+
+      <section className="interactive-section">
+        <div className="interactive-container">
+          <div className="section-header">
+            <span className="sub-title">TRẢI NGHIỆM THỰC TẾ</span>
+            <h2>KHÁM PHÁ ĐẢO HOANG</h2>
+          </div>
+
+          <div className="genially-wrapper">
+            <iframe 
+              title="Genially Interactive"
+              src="https://view.genially.com/69763237c9b4ee65baf0c679/interactive-content-desert-island" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
       <footer className="footer">
         <div className="footer-container">
